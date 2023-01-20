@@ -44,17 +44,17 @@ changeCurrency = () => {
 
     if (select.value == 'US$ Dólar Americano') {
         currencyName.innerHTML = "Dólar americano"
-        currencyimg.src = "./imagens/EUA.png"
+        currencyimg.src = "../imagens/EUA.png"
     }
 
     if (select.value == '£ Euro') {
         currencyName.innerHTML = "Euro"
-        currencyimg.src = "./imagens/euro.png"
+        currencyimg.src = "../imagens/euro.png"
     }
 
     if (select.value == "Bitcoin") {
         currencyName.innerHTML = "Bitcoin"
-        currencyimg.src = "./imagens/BItcoin.png"
+        currencyimg.src = "../imagens/BItcoin.png"
     }
 
     covertValues()
