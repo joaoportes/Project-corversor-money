@@ -7,6 +7,10 @@ const generate = () => {
     
     numParagrafo.innerHTML = Math.floor(Math.random() * (inputMax - inputMin + 1)) + inputMin;
     
+    if(isNaN(numParagrafo.innerHTML)){
+        numParagrafo.innerHTML = Math.floor(Math.random() * (100 - 1 + 1));
+    }
+
 }
 
 button.addEventListener('click', generate)
