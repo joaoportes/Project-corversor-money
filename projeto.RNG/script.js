@@ -10,6 +10,9 @@ const generate = () => {
     if(isNaN(numParagrafo.innerHTML)){
         numParagrafo.innerHTML = Math.floor(Math.random() * (100 - 1 + 1));
     }
+    if(inputMin > inputMax){
+        numParagrafo.innerHTML ='Valor inválido'
+    }
 
 }
 
